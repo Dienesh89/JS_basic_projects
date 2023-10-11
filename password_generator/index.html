@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+        
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+    <section id="cont">
+        <!-- nav bar -->
+        <nav>
+            <h2>Password Generator</h2>
+        </nav>
+        <!-- options -->
+        <div class="ops" id="first">
+            <p class="ops-box">Upper letters</p>
+            <div class="ops-check-box check-uc" onclick="uc()">✓</div>
+        </div>
+        <div class="ops" id="first">
+            <p class="ops-box">Lower letters</p>
+            <div class="ops-check-box check-lc" onclick="lc()">✓</div>
+        </div>
+        <div class="ops" id="first">
+            <p class="ops-box">Numbers</p>
+            <div class="ops-check-box check-n" onclick="n()">✓</div>
+        </div>
+        <div class="ops" id="first">
+            <p class="ops-box">Symbols</p>
+            <div class="ops-check-box check-s" onclick="s()">✓</div>
+        </div>
+
+        <form>
+            <!-- password length-->
+            <div class="length-cont" id="first">
+                <p class="length-ops ops-box">Length</p>
+                <input type="number" id="length" class="length-check ops-check-box">
+            </div>
+            <!--generate btn-->
+            <div id="generate-btn-cont">
+                <input id="generate" type="submit" value="Generate Password">
+            </div>
+        </form>
+        
+        <!-- show password -->
+        <div id="password-cont">
+            Password:
+            <p id="password"></p>
+            <div id="copy-cont">
+                <button id="copy" onclick="copyPass()">Copy!</button>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="js/sweatAlert.js"></script>
+<script src="js/script.js"></script>
+</html>

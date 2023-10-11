@@ -1,0 +1,132 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-image: url("../bg.jpg");
+    background-size: cover;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Poppins', sans-serif;
+}
+/* mav bar*/
+nav{
+    background-color: cornflowerblue;
+    padding: 4% 0;
+    border-radius: 18px;
+}
+nav h2{
+    text-align: center;
+    color: white;
+}
+/* container */
+#cont{
+    width: 90%;
+    max-width: 360px;
+    background-color: rgba(182, 179, 179, 0.908);
+    height: max-content;
+    border-radius: 18px;
+    padding-bottom:20px;
+    margin-top: 24px;
+}
+
+.ops{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-top: 2%;
+    margin-left: 4%
+}
+.ops-box{
+    width: 70%;
+    padding: 6%;
+    background-color: white;
+    text-align: center;
+    border-radius: 22px;
+}
+.ops-check-box{
+    width: 22%;
+    background-color: cornflowerblue;
+    margin-left: 5%;
+    border-radius: 22px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:xx-large;
+    color:white;
+    cursor: pointer;
+}
+/* length of pass word */
+.length-cont{
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    margin-top: 2%;
+    margin-left: 4%;
+}
+.length-ops{
+    width: 58%;
+    padding: 6%;
+}
+.length-check{
+    width: 28%;
+    margin-left: 0;
+    border:none;
+    text-align:center;
+    font-size:large;
+    color: white;
+}
+/* generate password btn */
+#generate-btn-cont{
+    display:flex;
+    justify-content:center;
+    margin-top:3%;
+    cursor: pointer;
+}
+#generate{
+    background-color: cornflowerblue;
+    padding: 2% 2%;
+    text-align: center;
+    color: white;
+    border:none;
+    width:90%;
+    margin:auto;
+    border-radius: 15px;
+    font-size: large;
+    cursor: pointer;
+}
+/* show password */
+#password-cont{
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
+}
+#password{
+    width: 100%;
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+    padding: 2%;
+    border-radius: 15px;
+    word-wrap: break-word;
+}
+/* copy btn */
+#copy-cont{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    cursor: pointer;
+}
+#copy{
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+    padding: 2% 4%;
+    border-radius: 8px;
+    border: none;
+    font-size: large;
+    cursor: pointer;
+}

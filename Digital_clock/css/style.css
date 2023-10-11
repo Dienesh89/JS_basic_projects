@@ -1,0 +1,65 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(https://wallpapercave.com/wp/wp2722822.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Poppins', sans-serif;
+}
+
+main{
+    width: 90%;
+    max-width: 20rem;
+}
+
+#time-boxes{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.time{
+    font-size: 2rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    backdrop-filter: blur(8px);
+    padding: 8px;
+    color: white;
+    text-align: center;
+}
+.coln{
+    color: white;
+    font-size: 5rem;
+}
+#ampm{
+    width: max-content;
+    padding: 4px 20px;
+    font-size: 0.8rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    backdrop-filter: blur(8px);
+    margin: auto;
+}
+#format{
+    width: 100%;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 8px;
+    backdrop-filter: blur(8px);
+    color: white;
+    margin-top: 12px;
+    padding: 2% 0;
+    font-size: large;
+}
